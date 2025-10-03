@@ -8,3 +8,9 @@ out/
 build/
 dist/
 .DS_Store
+
+**/node_modules/
+**/.next/
+**/build/
+**/out/
+**/dist/
