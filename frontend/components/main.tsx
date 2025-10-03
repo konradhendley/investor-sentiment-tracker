@@ -1,3 +1,4 @@
+//main file
 import { useEffect, useState } from "react";
 
 type Sentiment = {
