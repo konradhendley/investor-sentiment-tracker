@@ -2,3 +2,9 @@
 .env.loval
 __pycache__/
 *.pyc
+node_modules/
+.next/
+out/
+build/
+dist/
+.DS_Store
