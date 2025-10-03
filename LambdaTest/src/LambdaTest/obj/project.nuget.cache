@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "H89YvPye5M0=",
+  "success": true,
+  "projectFilePath": "/Users/konradhendley/Desktop/investment-sentiment-tracker/LambdaTest/src/LambdaTest/LambdaTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/konradhendley/.nuget/packages/amazon.lambda.core/2.1.0/amazon.lambda.core.2.1.0.nupkg.sha512",
+    "/Users/konradhendley/.nuget/packages/amazon.lambda.serialization.systemtextjson/2.2.0/amazon.lambda.serialization.systemtextjson.2.2.0.nupkg.sha512",
+    "/Users/konradhendley/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/8.0.20/microsoft.netcore.app.runtime.linux-x64.8.0.20.nupkg.sha512",
+    "/Users/konradhendley/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/8.0.20/microsoft.aspnetcore.app.runtime.linux-x64.8.0.20.nupkg.sha512",
+    "/Users/konradhendley/.nuget/packages/microsoft.netcore.app.crossgen2.osx-arm64/8.0.20/microsoft.netcore.app.crossgen2.osx-arm64.8.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}
