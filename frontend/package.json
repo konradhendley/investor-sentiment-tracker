@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "1.0.0",
   "main": "tailwind.config.js",
-  "homepage": "https://konradhendley.github.io/sentiment-tracker-frontend",
+  "homepage": "https://konradhendley.github.io/investor-sentiment-tracker/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
