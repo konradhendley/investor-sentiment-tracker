@@ -1,0 +1,7 @@
+/Users/konradhendley/Desktop/investment-sentiment-tracker/LambdaTest/src/LambdaTest/bin/Release/net8.0/linux-x64/publish/LambdaTest.deps.json
+/Users/konradhendley/Desktop/investment-sentiment-tracker/LambdaTest/src/LambdaTest/bin/Release/net8.0/linux-x64/publish/LambdaTest.runtimeconfig.json
+/Users/konradhendley/Desktop/investment-sentiment-tracker/LambdaTest/src/LambdaTest/bin/Release/net8.0/linux-x64/publish/LambdaTest.pdb
+/Users/konradhendley/Desktop/investment-sentiment-tracker/LambdaTest/src/LambdaTest/bin/Release/net8.0/linux-x64/publish/Amazon.Lambda.APIGatewayEvents.dll
+/Users/konradhendley/Desktop/investment-sentiment-tracker/LambdaTest/src/LambdaTest/bin/Release/net8.0/linux-x64/publish/Amazon.Lambda.Core.dll
+/Users/konradhendley/Desktop/investment-sentiment-tracker/LambdaTest/src/LambdaTest/bin/Release/net8.0/linux-x64/publish/Amazon.Lambda.Serialization.SystemTextJson.dll
+/Users/konradhendley/Desktop/investment-sentiment-tracker/LambdaTest/src/LambdaTest/bin/Release/net8.0/linux-x64/publish/LambdaTest.dll
