@@ -15,7 +15,7 @@ namespace LambdaTest.Tests
         public async Task HandleRequest_ReturnsMagnificent7Data()
         {
             // Arrange
-            Environment.SetEnvironmentVariable("FINNHUB_API_KEY", "d1ur6vpr01qjvosbknngd1ur6vpr01qjvosbkno0");
+            Environment.SetEnvironmentVariable("FINNHUB_API_KEY", Environment.GetEnvironmentVariable("FINNHUB_API_KEY"));
 
             var request = new APIGatewayProxyRequest
             {
