@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from "react";
 
 type Quote = {
@@ -65,7 +66,7 @@ function App() {
   const topLoser = allQuotes.reduce((min, q) => (q[1].Quote.dp < min[1].Quote.dp ? q : min));
 
   return (
-    <div className="bg-gray-50 min-h-screen flex flex-col items-center p-8">
+    <div className="bg-black-50 min-h-screen flex flex-col items-center p-8">
       <header className="flex flex-col sm:flex-row justify-between items-center py-8 bg-gradient-to-r from-indigo-600 to-blue-500 text-white shadow-lg w-full rounded-b-3xl mb-10 px-6">
         <div className="text-center sm:text-left">
           <h1 className="text-4xl font-bold tracking-tight">Magnificent 7 Stocks</h1>
@@ -133,7 +134,7 @@ function App() {
               className={`p-6 rounded-2xl shadow-md border-2 ${borderClass} ${bgGradient} transition transform hover:-translate-y-1 hover:shadow-xl`}
             >
               <div className="flex justify-between items-center mb-2">
-                <h2 className="text-2xl font-bold">{symbol}</h2>
+                <h2 className="text-2xl font-bold text-black">{symbol}</h2>
                 <span
                   className={`px-2 py-1 text-sm font-medium rounded-md ${
                     Quote.dp >= 0 ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700"
@@ -143,8 +144,8 @@ function App() {
                 </span>
               </div>
               <p className="text-sm text-gray-500 mb-3">Updated: {updatedAt}</p>
-              <p className="text-lg">
-                <span className="font-semibold">Current:</span>{" "}
+              <p className="text-lg text-black">
+                <span className="font-semibold text-black">Current:</span>{" "}
                 ${Quote.c.toFixed(2)}
               </p>
               <p className="text-gray-700">
@@ -163,12 +164,12 @@ function App() {
 
               {isTopGainer && (
                 <p className="mt-4 text-green-600 font-semibold text-sm">
-                  Stock of the Day
+                  Best Performer of the Day
                 </p>
               )}
               {isTopLoser && (
                 <p className="mt-4 text-red-600 font-semibold text-sm">
-                  Loser of the Day
+                  Worst Performer of the Day
                 </p>
               )}
             </div>
