@@ -1,6 +1,6 @@
-# Investor Sentiment Tracker
+# Market Valuation Tracker
 
-This project tracks real-time stock data and financial sentiment to help gauge public investor sentiment, starting with the **Magnificent 7** stocks.
+This project tracks real-time stock data of the **Magnificent 7** stocks.
 
 ## Features
 - Fetches real-time stock quotes for the Magnificent 7 using the **Finnhub API**
