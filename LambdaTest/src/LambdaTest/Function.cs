@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Net.Http;
 using System.Text.Json;
-using System.Threading.Tasks;
 using Amazon.Lambda.APIGatewayEvents;
 using Amazon.Lambda.Core;
 
@@ -39,8 +35,7 @@ namespace LambdaTest
                 /* Fetch basic company fundamentals (potential future enhancment)
                 var fundamentalsUrl = $"https://finnhub.io/api/v1/stock/metric?symbol={ticker}&metric=all&token={apiKey}";
                 var fundamentalsResponse = await httpClient.GetStringAsync(fundamentalsUrl);
-                var fundamentalsData = JsonSerializer.Deserialize<Dictionary<string, object>>(fundamentalsResponse);
-                */
+                var fundamentalsData = JsonSerializer.Deserialize<Dictionary<string, object>>(fundamentalsResponse);*/
 
                 results[ticker] = new
                 {

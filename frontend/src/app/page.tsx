@@ -107,7 +107,7 @@ function App() {
               Refreshing...
             </span>
           ) : (
-            "🔄 Refresh Data"
+            "Refresh Data"
           )}
         </button>
       </header>
